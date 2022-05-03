@@ -1,0 +1,60 @@
+body {
+  background: #fafafa;
+}
+
+.labrador {
+  position: absolute;
+  left: 60px;
+  background-image: url("/assets/pngfind.com-bubble-puppy-png-6878332.png");
+  width: 120px;
+  height: 99px;
+  bottom: -20px;
+  transform: scale(0.7);
+}
+
+.bear {
+  position: absolute;
+  width: 110px;
+  height: 136px;
+  bottom: -20px;
+  background-image: url("/assets/NicePng_grizzly-bear-png_687656.png");
+  transform: scale(0.85);
+}
+
+.game-over {
+  text-align: center;
+  color: #666;
+  margin: 50px 0;
+  font-family: arial;
+}
+
+@keyframes slideright {
+  from {
+    background-position: 95000%;
+  }
+  to {
+    background-position: 0%;
+  }
+}
+
+.background { 
+  margin-left: 1px;  
+  position: absolute;
+  background-image: url("/assets/background.jpg");
+  background-repeat: repeat;
+  animation: slideright 600s infinite linear;
+  -webkit-animation: slideright 600s infinite linear;
+  width: 100%;
+  height: 400px;
+  border-radius: 2%;
+  bottom: 100px;
+  clear: both;
+}
+
+div{
+     text-align: center;
+     margin:50px 0;
+     font-family: Arial, Helvetica, sans-serif;
+     color:#070202fc;
+
+}
